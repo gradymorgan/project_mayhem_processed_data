@@ -87,14 +87,266 @@
     { "id": "2014_snowbird_4", "regatta": "Snowbird", "date": "20150207", "startTime": "11:15", "endTime": "13:22", "race": 4, "boat": "Project Mayhem", "place": 3,
         "notes": "* Had trouble with upwind speed/point, were too bound up.  Didn't match leaches of jib and main.  Maybe had too much inhauler.  * Tacks were slow, because main was too strapped.  Blew up spinnaker driving into a wave at 16 knots.  Need to carve in that kind of chop."},
 
-    { "id": "2015_worlds_1", "regatta": "Worlds", "date": "20151014", "startTime": "11:34", "endTime": "12:42", "race": 1, "boat": "Project Mayhem", "place": 7, "links": [{"video":"https://www.youtube.com/watch?v=B-dk87vqmSc"},{"results":"http://www.cycseattle.org/results/2015_specific/farr30.html"}], "course": "SABYABF", "marks": {"S": [-122.41745850000001, 47.71693833333334], "A":[-122.41766816666669, 47.7380135], "B":[-122.41946033333333, 47.738018833333335], "Y":[-122.41720066666667, 47.708699833333334]}},
-    { "id": "2015_worlds_2", "regatta": "Worlds", "date": "20151014", "startTime": "13:12", "endTime": "14:22", "race": 2, "boat": "Project Mayhem", "place": 9, "course": "SABYABYF", "marks": {"S":[-122.42001450000001, 47.714949833333336], "A":[-122.419392, 47.73372866666667], "B":[-122.42188283333334, 47.733135666666676], "Y":[-122.41488416666668, 47.7084545]}},
-    { "id": "2015_worlds_3", "regatta": "Worlds", "date": "20151014", "startTime": "14:37", "endTime": "15:31", "race": 3, "boat": "Project Mayhem", "place": 12, "links": "https://www.youtube.com/watch?v=CrzEuMPumak", "course": "SABXABF", "marks": {"S": [-122.41720816666665, 47.71490966666667], "A":[-122.42400566666666, 47.73120466666666], "Y": [-122.419015, 47.71345483333333]}},
-    { "id": "2015_worlds_4", "regatta": "Worlds", "date": "20151015", "startTime": "11:13", "endTime": "12:16", "race": 4, "boat": "Project Mayhem", "place": 10, "course": "SABYF", "marks": {"S":[]}},
-    { "id": "2015_worlds_5", "regatta": "Worlds", "date": "20151015", "startTime": "13:02", "endTime": "14:19", "race": 5, "boat": "Project Mayhem", "place": 6, "course": "SABYABF", "marks": {"S":[]}},
-    { "id": "2015_worlds_6", "regatta": "Worlds", "date": "20151015", "startTime": "14:32", "endTime": "15:41", "race": 6, "boat": "Project Mayhem", "place": 12, "course": "SABXABF", "wind": "10-15", "course": "SAYAF", "marks": {"S": [-122.41591739505344, 47.71577606007907], "A":[-122.41523608161478, 47.73940344341557], "B":[-122.41750712525521, 47.73945435292461], "Y": [-122.41760806134954, 47.71525824291773]}},
-    { "id": "2015_worlds_7", "regatta": "Worlds", "date": "20151016", "startTime": "11:04", "endTime": "12:08", "race": 7, "boat": "Project Mayhem", "place": 4, "course": "SABYABYF", "marks": {"S":[]}},
-    { "id": "2015_worlds_8", "regatta": "Worlds", "date": "20151016", "startTime": "12:58", "endTime": "14:00", "race": 8, "boat": "Project Mayhem", "place": 6, "course": "SABXABF", "marks": {"S":[]}},
-    { "id": "2015_worlds_9", "regatta": "Worlds", "date": "20151016", "startTime": "14:16", "endTime": "15:30", "race": 9, "boat": "Project Mayhem", "place": 6, "course": "SABXABF", "marks": {"S":[]}}
+{
+    "id": "2015_bermuda_race1",
+    "regatta": "AC Bermuda",
+    "date": "20151018",
+    "startTime": "14:07",
+    "endTime": "15:07",
+    "meta": {
+        "wind": "12-15",
+        "seas": "flat",
+        "top speed": 12.43,
+        "avg. vmg": 3.53,
+        "time": 0
+    },
+    "race": 1,
+    "boat": "WG1",
+    "place": 1,
+    "course": "SABYABF",
+    "marks": {
+      "S": [
+        -122.41745850000001,
+        47.71693833333334
+      ],
+      "A": [
+        -122.41766816666669,
+        47.7380135
+      ],
+      "B": [
+        -122.41946033333333,
+        47.738018833333335
+      ],
+      "Y": [
+        -122.41720066666667,
+        47.708699833333334
+      ],
+      "F": [
+        -122.41745850000001,
+        47.71693833333334
+      ]
+    }
+  },
 
+
+    {
+    "id": "2015_worlds_1",
+    "regatta": "Worlds",
+    "date": "20151014",
+    "startTime": "11:34",
+    "endTime": "12:42",
+    "meta": {
+        "wind": "12-15",
+        "seas": "flat",
+        "top speed": 12.43,
+        "avg. vmg": 3.53,
+        "time": 0
+    },
+    "race": 1,
+    "boat": "Project Mayhem",
+    "place": 7,
+    "finishers": ["canadian","annapolis","Project Mayhem"],
+    "links": {
+        "video": "https://www.youtube.com/watch?v=B-dk87vqmSc",
+        "results": "http://www.cycseattle.org/results/2015_specific/farr30.html"
+    },
+    "course": "SABYABF",
+    "marks": {
+      "S": [
+        -122.41745850000001,
+        47.71693833333334
+      ],
+      "A": [
+        -122.41766816666669,
+        47.7380135
+      ],
+      "B": [
+        -122.41946033333333,
+        47.738018833333335
+      ],
+      "Y": [
+        -122.41720066666667,
+        47.708699833333334
+      ],
+      "F": [
+        -122.41745850000001,
+        47.71693833333334
+      ]
+    }
+  },
+
+  {
+    "id": "2015_worlds_2",
+    "regatta": "Worlds",
+    "date": "20151014",
+    "startTime": "13:12",
+    "endTime": "14:22",
+    "race": 2,
+    "boat": "Project Mayhem",
+    "place": 9,
+    "course": "SABYABYF",
+    "marks": {
+      "S": [
+        -122.42001450000001,
+        47.714949833333336
+      ],
+      "A": [
+        -122.419392,
+        47.73372866666667
+      ],
+      "B": [
+        -122.42188283333334,
+        47.733135666666676
+      ],
+      "Y": [
+        -122.41488416666668,
+        47.7084545
+      ],
+      "F": [
+        -122.42001450000001,
+        47.714949833333336
+      ]
+    }
+  },
+  {
+    "id": "2015_worlds_3",
+    "regatta": "Worlds",
+    "date": "20151014",
+    "startTime": "14:37",
+    "endTime": "15:31",
+    "race": 3,
+    "boat": "Project Mayhem",
+    "place": 12,
+    "links": {
+        "video":"https://www.youtube.com/watch?v=CrzEuMPumak",
+        "results": "http://www.cycseattle.org/results/2015_specific/farr30.html"
+    },
+    "course": "SAXAF",
+    "marks": {
+      "S": [
+        -122.41720816666665,
+        47.71490966666667
+      ],
+      "A": [
+        -122.42400566666666,
+        47.73120466666666
+      ],
+      "X": [
+        -122.419015,
+        47.71345483333333
+      ],
+      "S": [
+        -122.41720816666665,
+        47.71490966666667
+      ]
+    }
+  },
+  {
+    "id": "2015_worlds_4",
+    "regatta": "Worlds",
+    "date": "20151015",
+    "startTime": "11:13",
+    "endTime": "12:16",
+    "race": 4,
+    "boat": "Project Mayhem",
+    "place": 10,
+    "links": {
+        "video":"https://www.youtube.com/watch?v=kSNvAa2p_Rs",
+        "results": "http://www.cycseattle.org/results/2015_specific/farr30.html"
+    },
+    "course": "SABYF",
+    "marks": {
+      "S": [-122.41445383333333, 47.71651283333334],
+      "A": [-122.41196866666665, 47.750136999999995],
+      "B": [-122.41597766666668, 47.74986633333333],
+      "Y": [-122.41125966666665, 47.70835716666667],
+      "F": [-122.41445383333333, 47.71651283333334]
+    }
+  },
+  {
+    "id": "2015_worlds_5",
+    "regatta": "Worlds",
+    "date": "20151015",
+    "startTime": "13:02",
+    "endTime": "14:19",
+    "race": 5,
+    "boat": "Project Mayhem",
+    "place": 6,
+    "course": "SAYBF",
+    "marks": {
+      "S": [-122.41445383333333, 47.71651283333334],
+      "A": [-122.41694100000001, 47.73970233333333],
+      "B": [-122.41806633333333, 47.739512500000004],
+      "Y": [-122.41273350000002, 47.707828166666665],
+      "F": [-122.41445383333333, 47.71651283333334]
+    }
+  },
+  {
+    "id": "2015_worlds_6",
+    "regatta": "Worlds",
+    "date": "20151015",
+    "startTime": "14:32",
+    "endTime": "15:41",
+    "race": 6,
+    "boat": "Project Mayhem",
+    "place": 12,
+    "course": "SABYABF",
+    "wind": "10-15",
+    "marks": {
+      "S": [
+        -122.41591739505344,
+        47.71577606007907
+      ],
+      "A": [-122.41721183333333, 47.739457333333334],
+      "B":  [-122.41943466666667, 47.739351166666665],
+      "Y": [-122.41593233333333, 47.7151145],
+      "F": []
+    }
+  },
+  {
+    "id": "2015_worlds_7",
+    "regatta": "Worlds",
+    "date": "20151016",
+    "startTime": "11:04",
+    "endTime": "12:08",
+    "race": 7,
+    "boat": "Project Mayhem",
+    "place": 4,
+    "links": {
+        "video":"https://www.youtube.com/watch?v=J8GlNNUN0ew",
+        "results": "http://www.cycseattle.org/results/2015_specific/farr30.html"
+    },
+    "course": "SABYABYF",
+    "marks": {
+      "S": []
+    }
+  },
+  {
+    "id": "2015_worlds_8",
+    "regatta": "Worlds",
+    "date": "20151016",
+    "startTime": "12:58",
+    "endTime": "14:00",
+    "race": 8,
+    "boat": "Project Mayhem",
+    "place": 6,
+    "course": "SABXABF",
+    "marks": {
+      "S": []
+    }
+  },
+  {
+    "id": "2015_worlds_9",
+    "regatta": "Worlds",
+    "date": "20151016",
+    "startTime": "14:16",
+    "endTime": "15:30",
+    "race": 9,
+    "boat": "Project Mayhem",
+    "place": 6,
+    "course": "SABXABF",
+    "marks": {
+      "S": []
+    }
+  }
 ]
